@@ -1,24 +1,26 @@
 nav {
     padding: 20px;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-#items {
+.menu {
+    display: flex;
+    flex-flow: row wrap;
     margin-right: 150px;
 }
 
-#code {
+.code {
     background-image: url(https://img.olhardigital.com.br/uploads/acervo_imagens/2019/03/r16x9/20190322051919_1200_675_-_codigo_de_programacao.jpg);
     height: 200px;
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover  ;
+    margin-bottom: 50px;
 }
 
-#logo {
-    border: thin solid red;
+.logo img {
     height: 50px;
-    width: 200px;
-    margin: 0;
+    width: 100px;
 }
-
 

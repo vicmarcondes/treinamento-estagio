@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center; 
+}
+
+.title mark {
+    background-color: lightgreen;
+}
+
+.description {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
