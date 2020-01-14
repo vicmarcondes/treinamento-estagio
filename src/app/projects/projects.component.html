@@ -1,1 +1,18 @@
-<p>projects works!</p>
+<section class="projects">
+    <div class="container">
+        <div class="columns is-multiline is-1-desktop">
+            <div *ngFor="let project of projects; index as i" class="column is-6">
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+                <div class="content">
+                    <h1 class="title">PROJETO {{i+1}}</h1>
+                    <p class="subtitle">{{project}}</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus blandit venenatis. Consectetur adipiscing elit</p>
+                </div>
+            </div>            
+        </div>
+
+        <div class="page">
+            <span *ngFor="let page of pages; index as i">{{page}}</span>
+        </div>         
+    </div>
+</section>

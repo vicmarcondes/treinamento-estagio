@@ -1,0 +1,50 @@
+.projects {
+    margin-top: 100px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.column {
+    display: flex;
+}
+
+.column img {
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.description {
+    text-align: justify;
+    font-size: 12px;
+    padding-right: 10px ;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.page span {
+    width: 50px;
+    height: 50px;  
+    border: solid 3px lightgreen;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.page span:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}

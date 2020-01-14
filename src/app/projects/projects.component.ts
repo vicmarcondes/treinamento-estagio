@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  public projects = [
+    'Desenvolvimento mobile',
+    'Desenvolvimento WEB',
+    'Desenvolvimento mobile',
+    'Desenvolvimento mobile',
+    'Desenvolvimento mobile',
+    'Desenvolvimento mobile',
+    'Desenvolvimento mobile',
+    'Desenvolvimento mobile'
+  ];
+
+  public pages = [1,2,3];
+
   constructor() { }
 
   ngOnInit() {
